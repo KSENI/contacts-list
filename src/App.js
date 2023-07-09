@@ -29,7 +29,7 @@ class App extends Component {
         
         return (
             <div className="container">
-                <Typography variant='h4'>Таблица контактов</Typography>
+                <Typography variant='h4'>Contacts</Typography>
                 <Table
                     peopleData={peoples}
                     removePeople={this.removePeople}
